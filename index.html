@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getsark</title>
+  </head>
+
+  
+  <body>
+   
+    <!-- HEADER  -->
+    <div class="header__container">
+      <div class="container">
+        <img src="./img/logo.jpg" alt="logo" />
+      <div class="header__actions">
+        <button class="header__actions__bttn">START FREE TRIAL</button>
+
+        <a id="btn-hamburger-menu">
+          <span id="hamburger-icon" class="material-symbols-outlined">
+            menu
+          </span>
+        </a>
+      </div>
+      </div>
+
+
+    
+    
+      <div class="action-laptop-container" >
+        <img class="logo" src="./img/logo.jpg" alt="logo" />
+        <ul>
+          <li>
+            USE CASE
+
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+              </span>
+          </li>
+          <li>
+            PRICING
+          </li>
+          <li>
+            SUPPORT
+          </li>
+          <li>
+            RESOURCES
+          </li>
+          <li>
+            LOGIN
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+              </span>
+          </li>
+        </ul>
+        <button class="action_bttn">LOG IN</button>
+        <button class="action_bttn--start">START FREE TRIAL</button>
+
+      </div>
+      
+    </div>
+
+    
+    <main>
+  
+   
+
+      <section id="hamburger-menu" class="hamburger-menu" style="display: none">
+        <ul class="hamburger-menu__list">
+          <li>LOG IN</li>
+          <li class="hamburger-menu__list__especial-item">
+            USE CASE
+
+            <ul class="submenu-usecase">
+              <li class="v">For Designers</li>
+              <li class="v">For Developers</li>
+              <li class="v">For Product Managers</li>
+              <li class="v">For Compliance Managers</li>
+            </ul>
+          </li>
+
+          <li>PRICING</li>
+          <li>SUPPORT</li>
+          <li>BLOG</li>
+          <li>LIBRARY</li>
+          <li>THE WCAG EXPLAINED</li>
+          <li>COMMUNITY</li>
+        </ul>
+      </section>
+
+     
+
+      <div class="header ">
+        <div class="nav">
+          <a class="nav__item" href="#">Library</a>
+          <a class="nav__item" href="#">Collections</a>
+          <a class="nav__item" href="#" id="show-menu"
+            >Categories
+            <span id="arrow" class="material-symbols-outlined">
+              keyboard_arrow_down
+            </span>
+          </a>
+
+          <label class="nav__item">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" />
+          </label>
+        </div>
+
+       
+
+
+
+
+        <div id="menu-mobile" class="menu" style="display: none">
+          <ul class="menu__list">
+            <li>All</li>
+            <li>Blogs & Articles</li>
+            <li>Books</li>
+            <li>Checklists</li>
+            <li>Colors</li>
+            <li>Community</li>
+            <li>Companies & Organizations</li>
+            <li>Courses & Certificates</li>
+            <li>Design Patterns</li>
+            <li>Desing Systems</li>
+            <li>Emails</li>
+            <li>Employment</li>
+            <li>Gaming</li>
+            <li>Guides</li>
+            <li>Media</li>
+            <li>Movile</li>
+            <li>Newsletters</li>
+            <li>Plugins</li>
+            <li>Podcast & Videos</li>
+            <li>Resources</li>
+            <li>Software & Tools</li>
+            <li>Web Standards</li>
+          </ul>
+        </div>
+        
+      </div>
+      
+
+      <div class="nav-laptop" >
+        Search Library 
+        <label class="nav-laptop__item" for="search-library" >
+          <span class="material-symbols-outlined">search</span>
+          <input type="text" id="search-library"/>
+        </label>
+        <a class="nav-laptop__item" href="#">Home</a>
+        <a class="nav-laptop__item" href="#">Collections</a>
+        <a class="nav-laptop__item" href="#" id="show-menu-laptop"
+          >Categories
+          <span id="arrow-laptop" class="material-symbols-outlined">
+            keyboard_arrow_down
+          </span>
+        </a>
+
+
+        <div id="menu-mobile-laptop" class="menu" style="display: none">
+          <ul class="menu__list">
+            <li>All</li>
+            <li>Blogs & Articles</li>
+            <li>Books</li>
+            <li>Checklists</li>
+            <li>Colors</li>
+            <li>Community</li>
+            <li>Companies & Organizations</li>
+            <li>Courses & Certificates</li>
+            <li>Design Patterns</li>
+            <li>Desing Systems</li>
+            <li>Emails</li>
+            <li>Employment</li>
+            <li>Gaming</li>
+            <li>Guides</li>
+            <li>Media</li>
+            <li>Movile</li>
+            <li>Newsletters</li>
+            <li>Plugins</li>
+            <li>Podcast & Videos</li>
+            <li>Resources</li>
+            <li>Software & Tools</li>
+            <li>Web Standards</li>
+          </ul>
+        </div>
+
+
+
+
+        <div class="contribute-box">
+          <p class="contribute-box__title">Contribute to Stark</p>
+          <p class="contribute-box__text">Got any accessibility resources or news?</p>
+          <button class="contribute-box__button-submit">Submit a Resources</button>
+        </div>
+        
+      </div>
+
+      <div class="wrapper ">
+      <section >
+
+        <div class="title-container">
+          <h1 class="title-container__title">New in the Library</h1>
+          <span class=" title-container__reference">VIEW ALL</span>
+             
+        </div>
+        <p >Newly added accessibility resources, guides, and more.</p>
+
+
+        <div class="library-container">
+
+          <div class="grid-item">
+            <img class="grid-item__img" src="/img/daisy.jpg" alt="daisy-logo">
+              <p >RESOURCES
+                <p >Inclusive Publishing</p>
+              </p>
+            </img>
+          </div>
+          <div class="grid-item">
+            <img  class="grid-item__img"  src="/img/apln.png" alt="apln-logo">
+              <p> RESOURCES
+                <p>The APLN (Accessible Puvlishing Learning Network)</p>
+              </p>
+            </img>
+          </div>
+          <div class="grid-item">
+            <img class="grid-item__img"  src="/img/h.jpg" alt="H-logo">
+              <p> RESOURCES
+                <p>Making Accessible Books</p>
+              </p>
+            </img>
+          </div>
+          <div class="grid-item">
+            <img class="grid-item__img"  src="/img/daisy.jpg"alt="daisy-logo">
+              <p> RESOURCES
+                <p> The DAISY Consortium's Accessible Publishing Knowledge Base</p>
+              </p>
+            </img>
+          </div>
+          <div class="grid-item">
+            <img class="grid-item__img"  src="/img/language.png" alt="languaje-logo">
+              <p> RESOURCES
+                <p>Language, Please: Style Guide 6 Resources for journalists and storytellers</p>
+              </p>
+            </img>
+          </div>
+          <div class="grid-item">
+            <img class="grid-item__img"  src="/img/google.png" alt="google-logo">
+              <p> BLOGS & ARTICLES
+                <p>4 steps to more inclusive, precise language</p>
+              </p>
+            </img>
+
+          </div>
+
+        </div>
+
+       
+
+
+      </section>
+
+      <section>
+        <div class="title-container">
+          <h1 class="title-container__title">Featured Collections</h1>
+          <span class=" title-container__reference">VIEW ALL</span>
+             
+        </div>
+        <p >Handpicked and curated collections around accessibility.</p>
+
+        <div class="collections-block">
+          <div class="img1" ><p>Disability Employment</p> <img src="/img/img1.png" alt=""></div>
+          <div  class="img2"><p>Making Accessible Color Combos</p><img src="/img/imagen2.png" alt=""></div>
+          <div  class="img3"><p>Tips and Tricks for Inclusive Social Media</p><img src="/img/imagen3.png" alt=""></div>
+        </div>
+      </section>
+      </div>
+
+
+    </main>
+
+    <footer>
+      <div class="footer-box">
+
+      <div class="info-container">
+
+
+      <div class="info-block">
+        <span>USE CASES</span>
+        <ul>
+          <li>For Designers</li>
+          <li>For Developers</li>
+          <li>For Product Managers</li>
+          <li>For Compliance Managers</li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <span>RESOURCES</span>
+        <ul>
+          <li>Blog</li>
+          <li>Library</li>
+          <li>Release Notes</li>
+          <li>Slack Community</li>
+          <li>WCAG Compliance</li>
+          <li>Section 508 Compliance</li>
+          <li>European Accessibility</li>
+          <li>Act (EAA) Compliance</li>
+        </ul>
+      </div>
+
+      <div  class="info-block">
+        <span>HELP</span>
+        <ul>
+          <li>My Account</li>
+          <li>Support Docs</li>
+          <li>Contact Us</li>
+          <li>Feature Requests</li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <span>COMPANY</span>
+        <ul>
+          <li>Stark Framework</li>
+          <li>Support Docs</li>
+          <li>Contact Us</li>
+          <li>Feature Requests</li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <span>SECURITY</span>
+        <ul>
+          <li>Security Overview</li>
+          <li>Cookie Policy</li>
+          <li>GDPR</li>
+          <li>Status</li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <span>DESIGN INTEGRATIONS</span>
+        <ul>
+          <li>Stark for Figma</li>
+          <li>Stark for FigJam</li>
+          <li>Stark for Sketch</li>
+          <li>Stark for Adobe XD</li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <span>DEVELOPER INTEGRATIONS</span>
+        <ul>
+          <li>Stark for Chrome</li>
+          <li>Stark for Firefox</li>
+          <li>Stark for Edge</li>
+          <li>Stark for Safari</li>
+          <li>Stark for Arc</li>
+          <li>Stark for Brave</li>
+        </ul>
+      </div>
+
+      </div>
+
+      <div class="redes-container">
+
+       <div>
+        <img src="/img/twitter.png" alt="logo-redes">
+        <img src="/img/instagram.webp" alt="logo-redes">
+        <img src="/img/slack.webp" alt="logo-redes">
+        <img src="/img/share-linkedin.png" alt="logo-redes">
+        <img src="/img/youtube.png" alt="logo-redes">
+       </div>
+        <!-- <div><img  src="" alt="logo-redes" /></div>
+        <div><img  src="" alt="logo-redes" /></div>
+        <div><img  src="" alt="logo-redes"/></div>
+        <div><img  src="" alt="logo-redes"/></div>
+        <div><img  src="" alt="logo-redes"/></div> -->
+
+        
+      <p class="text-footer">MADE REMOTELY WITH LOVE BY STARK LAB, INC. COPYRIGHT 2023</p>
+      </div>
+
+
+</div>
+    </footer>
+
+  
+    <script src="/index.js"></script>
+  </body>
+</html>
