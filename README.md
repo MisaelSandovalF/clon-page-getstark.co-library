@@ -9,7 +9,7 @@ Este es un clon de la página web [Getstark] (https://www.getstark.co/library/),
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Licencia](#licencia)
+- [Redes](#redes-sociales)
 
 ## Descripción
 
